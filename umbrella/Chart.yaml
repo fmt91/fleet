@@ -1,0 +1,13 @@
+apiVersion: v2
+name: testbigapp
+appVersion: "1.0"
+description: "This is a big application with lots of dependent subcharts"
+version: 1.1.0
+type: application
+dependencies:
+  - name: guestbook
+    version: 1.1.0
+    repository: gs://chartrepo/guestbook.tar.gz
+  - name: nginxapp2
+    version: 1.1.0
+    repository: gs://chartrepo/nginxchart.tar.gz
