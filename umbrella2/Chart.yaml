@@ -7,5 +7,5 @@ type: application
 dependencies:
   - name: guestbook
     version: 0.0.1
-    repository: "https://cloudsmith.io/~test-nd2/repos/testrepo/packages/"
+    repository: "https://dl.cloudsmith.io/public/test-nd2/testrepo/helm/charts/"
 
