@@ -7,7 +7,7 @@ type: application
 dependencies:
   - name: guestbook
     version: 1.1.0
-    repository: gs://chartrepo/guestbook.tar.gz
+    repository: "https://dl.cloudsmith.io/public/test-nd2/testrepo/helm/charts/guestbook-0.0.1.tgz"
   - name: nginxapp2
     version: 1.1.0
-    repository: gs://chartrepo/nginxchart.tar.gz
+    repository: "https://dl.cloudsmith.io/public/test-nd2/testrepo/helm/charts/nginx-13.3.0.tgz"
