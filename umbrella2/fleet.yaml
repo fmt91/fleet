@@ -1,0 +1,19 @@
+namespace: fleet-mc-helm-example
+helm:
+  repo: https://dl.cloudsmith.io/public/test-nd2/testrepo/helm/charts/
+
+targetCustomizations:
+- name: dev
+  clusterSelector:
+    matchLabels:
+      env: dev
+
+- name: test
+  clusterSelector:
+    matchLabels:
+      env: test
+
+- name: prod
+  clusterSelector:
+    matchLabels:
+      env: prod

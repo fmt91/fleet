@@ -7,8 +7,7 @@ type: application
 dependencies:
   - name: guestbook
     version: 0.0.0
-    repository: "https://charts/guestbook"
   - name: nginx
     version: 13.3.0
-    repository: "https://charts/guestbook"
+   
 
