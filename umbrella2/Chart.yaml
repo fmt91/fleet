@@ -6,8 +6,8 @@ version: 1.1.0
 type: application
 dependencies:
   - name: guestbook
-    version: 0.0.0
+    version: latest
   - name: nginx
-    version: 13.3.0
+    version: latest
    
 
