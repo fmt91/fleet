@@ -8,6 +8,6 @@ dependencies:
   - name: guestbook
     version: latest
   - name: nginx
-    version: latest
+    version: 13.3.0
    
 
