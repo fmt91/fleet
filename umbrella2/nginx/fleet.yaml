@@ -1,0 +1,4 @@
+namespace: fleet-mc-helm-example
+helm:
+  chart: https://dl.cloudsmith.io/public/test-nd2/testrepo/helm/charts/nginx-13.3.0.tgz
+
