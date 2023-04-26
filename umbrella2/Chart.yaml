@@ -7,7 +7,8 @@ type: application
 dependencies:
   - name: guestbook
     version: 0.0.1
+    repository: https://dl.cloudsmith.io/public/test-nd2/testrepo/helm/charts/
   - name: nginx
     version: 13.3.0
-   
+    repository: https://dl.cloudsmith.io/public/test-nd2/testrepo/helm/charts/
 
