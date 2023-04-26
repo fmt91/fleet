@@ -5,7 +5,7 @@ description: "This is a big application with lots of dependent subcharts"
 version: 1.1.0
 type: application
 dependencies:
-  - name: guestbook
+  - name: testnd2/guestbook
     version: 0.0.1
   - name: nginx
     version: 13.3.0
