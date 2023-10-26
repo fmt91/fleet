@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: frontend-edited
+  name: frontend
 spec:
   selector:
     matchLabels:
@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: php-redis
-        image: gcr.io/google-samples/xxxgb-frontend:v5
+        image: gcr.io/google-samples/gb-frontend:v5
         resources:
           requests:
             cpu: 100m
